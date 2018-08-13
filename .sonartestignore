@@ -1,0 +1,4 @@
+components/**/*.spec.js
+services/**/*.spec.js
+integration-test/*.spec.js
+services/test-mocks/**/*.js

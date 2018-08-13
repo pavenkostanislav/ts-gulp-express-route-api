@@ -1,0 +1,31 @@
+# Logs
+*.log
+npm-debug.log*
+yarn.lock
+package-lock.json
+.nyc_output
+
+# IDE
+.idea
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Compiled
+build
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# OS X trash files
+.DS_Store
+
+# local env file
+config/env/.env.local.properties
+config/env/.env.local-test.properties
