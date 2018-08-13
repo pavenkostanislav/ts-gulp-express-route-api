@@ -13,5 +13,10 @@ export const config: any = {
     },
     auth: {
       loginPage: 'http://localhost:4200'
-    }
+    },
+    log: {
+      logger: 'bunyan',
+      level: 'DEBUG',
+      hideFields: 'schema,details'
+    },
   };

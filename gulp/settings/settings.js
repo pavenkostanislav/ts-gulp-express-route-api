@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 var argv = require('yargs').argv;
 
 const src = "src";

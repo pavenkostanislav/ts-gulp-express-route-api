@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const gulp = require("gulp");
 const settings = require("../settings");
 var spawn = require("../tools/spawn");

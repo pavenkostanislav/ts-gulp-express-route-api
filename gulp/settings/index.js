@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const settings = require("./settings");
 const constants = require("./constants");
 
