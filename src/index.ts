@@ -4,12 +4,14 @@ import { Controllers } from './bootstrap/controllers';
 import { ExpressDefault } from './bootstrap/express-default';
 import { config } from './services/config';
 import { logger } from './tools/logger/logger';
+import { initPassportStrategy } from './authentication/init/initPassportStrategy';
 
 export const app = express();
 
 app.set('domain', config.app.host);
 app.set('port', config.app.port);
 
+initPassportStrategy();
 ExpressDefault(app);
 Controllers(app);
 

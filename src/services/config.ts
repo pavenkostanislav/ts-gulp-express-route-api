@@ -12,11 +12,13 @@ export const config: any = {
       }
     },
     auth: {
-      loginPage: 'http://localhost:4200'
+      loginPage: 'http://localhost:4200',
+      clientHost: 'http://localhost:4200',
+      backDoor: true
     },
     log: {
       logger: 'bunyan',
       level: 'DEBUG',
       hideFields: 'schema,details'
-    },
+    }
   };
